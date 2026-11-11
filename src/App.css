@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.task-item span {
+  flex: 1;
+}
+
+.task-item button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.btn-edit {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-save {
+  background-color: #2196F3;
+  color: white;
+}
+
+.update-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.update-form input {
+  flex: 1;
+  padding: 8px;
+}
